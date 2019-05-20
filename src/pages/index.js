@@ -21,6 +21,8 @@ const IndexPage = () => (
     <Link to="/about-css-modules/">About CSS Modules</Link>
     <br />
     <Link to="/my-files/">See my files</Link>
+    <br />
+    <Link to="/markdown-files/">See only markdown files</Link>
   </Layout>
 )
 
