@@ -5,8 +5,6 @@ import Container from '../components/container'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-console.log(styles)
-
 const User = props => (
   <div className={styles.user}>
     <img src={props.avatar} className={styles.avatar} alt="" />
