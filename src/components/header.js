@@ -1,8 +1,8 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { css } from '@emotion/core'
 import { rhythm } from '../utils/typography'
+import Nav from './nav'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -14,24 +14,8 @@ const Header = ({ siteTitle }) => (
       padding: ${rhythm(1)};
     `}
   >
-    <Link
-      to={'/'}
-      css={css`
-        display: inline-block;
-        margin-right: 1em;
-      `}
-    >
-      <h3>{siteTitle}</h3>
-    </Link>
-    <Link
-      to={'/about/'}
-      css={css`
-        display: inline-block;
-        margin-right: 1em;
-      `}
-    >
-      <h3>About that dog</h3>
-    </Link>
+    <h3>{siteTitle}</h3>
+    <Nav />
   </header>
 )
 

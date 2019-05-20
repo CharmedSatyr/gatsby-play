@@ -4872,6 +4872,13 @@ gatsby-link@^2.1.1:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
+gatsby-plugin-create-client-paths@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-create-client-paths/-/gatsby-plugin-create-client-paths-2.0.5.tgz#cff2d8d9d7e35f3b0e59cc88bb400391e7608ddd"
+  integrity sha512-gCsPcbLLdaVIhP6l3v55zG0h6VvbgaJugGocEymq5j4SYYRprJq4Kb8vUaUowps6IKRLmp/iZtSBd/Rq9wKLOw==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-plugin-emotion@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-4.0.6.tgz#5f496df66b2640874fcb073e4f2d8a2a1a4632da"
@@ -9496,6 +9503,14 @@ react-hot-loader@^4.8.4:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
     source-map "^0.7.3"
+
+react-ifs@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/react-ifs/-/react-ifs-0.1.4.tgz#1f99a8a19938be6b6533d27464e2d9733737291c"
+  integrity sha512-B0BSQ9PIRwSWyu1C1E/4xUZ+zFX3ig/w2GaIaa6PoBqSh/IIKEB1IpBb0bGjY83SpQHiW5Yj3KIwAUZlfAb2ew==
+  dependencies:
+    react "^16.8.6"
+    react-dom "^16.8.6"
 
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.8.3"

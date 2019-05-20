@@ -9,6 +9,10 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/restricted/*`] },
+    },
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,

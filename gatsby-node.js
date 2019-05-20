@@ -12,8 +12,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 }
 
 // CREATE PAGES
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ page, graphql, actions }) => {
   const { createPage } = actions
+
   return graphql(`
     {
       allMarkdownRemark {
