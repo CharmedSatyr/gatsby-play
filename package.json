@@ -24,7 +24,11 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-ifs": "^0.1.4",
+    "react-redux": "^7.0.3",
     "react-typography": "^0.16.19",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19",
     "typography-theme-kirkham": "^0.16.19"

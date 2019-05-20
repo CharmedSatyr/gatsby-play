@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, navigate } from 'gatsby'
-import { getUser, isLoggedIn, logout } from '../services/auth'
+import { getUser, isLoggedIn, logout } from '../utils/auth'
 import If from 'react-ifs'
 
 const LoginLink = () => <Link to="/restricted/login">Login</Link>

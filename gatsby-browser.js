@@ -1,9 +1,10 @@
+import React from 'react'
+import { Provider } from 'react-redux'
+
 import './src/styles/global.scss'
 
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+import store from './src/store/'
 
-// You can delete this file if you're not using it
+export const wrapRootElement = ({ element }) => (
+  <Provider store={store}>{element}</Provider>
+)
