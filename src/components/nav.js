@@ -23,6 +23,8 @@ const Nav = () => {
         <If condition={isLoggedIn()} else={<LoginLink />}>
           <Link to="/restricted/profile">Profile</Link>
           {` `}
+          <Link to="/restricted/secret-swapi">Secret SWAPI</Link>
+          {` `}
           <a
             href="/"
             onClick={e => {

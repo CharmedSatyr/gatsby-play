@@ -9,6 +9,15 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        // Remote schema query type
+        typeName: 'SWAPI',
+        fieldName: 'swapi',
+        url: 'https://api.graphcms.com/simple/v1/swapi',
+      },
+    },
+    {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/restricted/*`] },
     },
